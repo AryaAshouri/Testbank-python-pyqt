@@ -24,19 +24,22 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="styleSheet">
-       <string notr="true">background-color:black;</string>
+       <string notr="true"/>
       </property>
       <widget class="QWidget" name="page_1">
        <layout class="QGridLayout" name="gridLayout">
-        <item row="5" column="0" rowspan="2">
-         <widget class="QLabel" name="label_2">
+        <item row="0" column="1" colspan="2">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">padding-top:20px;</string>
+          </property>
           <property name="text">
            <string/>
           </property>
          </widget>
         </item>
-        <item row="5" column="3" rowspan="2">
-         <widget class="QLabel" name="label_3">
+        <item row="5" column="0" rowspan="2">
+         <widget class="QLabel" name="label_2">
           <property name="text">
            <string/>
           </property>
@@ -49,23 +52,6 @@
           </property>
           <property name="text">
            <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QPushButton" name="student">
-          <property name="styleSheet">
-           <string notr="true">QPushButton {
-background-color:rgb(0, 255, 76);
-border-radius:10px;
-font-family:Aviny;
-font-size:34px;
-color:white;
-height:200px;
-}</string>
-          </property>
-          <property name="text">
-           <string>دانشجو هستم</string>
           </property>
          </widget>
         </item>
@@ -83,6 +69,23 @@ height:200px;
           </property>
           <property name="text">
            <string>هیچکدام نیستم</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="student">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:34px;
+color:white;
+height:200px;
+}</string>
+          </property>
+          <property name="text">
+           <string>دانشجو هستم</string>
           </property>
          </widget>
         </item>
@@ -135,11 +138,8 @@ height:200px;
           </property>
          </widget>
         </item>
-        <item row="0" column="1" colspan="2">
-         <widget class="QLabel" name="label_5">
-          <property name="styleSheet">
-           <string notr="true">padding-top:20px;</string>
-          </property>
+        <item row="5" column="3" rowspan="2">
+         <widget class="QLabel" name="label_3">
           <property name="text">
            <string/>
           </property>
@@ -483,307 +483,325 @@ color:white;
       </widget>
       <widget class="QWidget" name="page_8">
        <layout class="QGridLayout" name="gridLayout_8">
-        <item row="0" column="0">
-         <widget class="QTabWidget" name="tabWidget">
+        <item row="0" column="1" colspan="2">
+         <widget class="QLabel" name="label_26">
           <property name="styleSheet">
-           <string notr="true">background-color:rgb(0, 255, 76);
-border:none;
-font-family:Aviny;
-font-size:29px;
-color:rgb(0, 255, 76);</string>
+           <string notr="true">padding-bottom:10px;
+background-color:transparent;</string>
           </property>
-          <property name="currentIndex">
-           <number>0</number>
+          <property name="text">
+           <string/>
           </property>
-          <widget class="QWidget" name="tab">
-           <attribute name="title">
-            <string>ریاضی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_10">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_2">
-           <attribute name="title">
-            <string>هندسه</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_9">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_2">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_3">
-           <attribute name="title">
-            <string>فیزیک</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_11">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_3">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_4">
-           <attribute name="title">
-            <string>شیمی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_12">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_4">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_5">
-           <attribute name="title">
-            <string>ادبیات</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_13">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_5">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_6">
-           <attribute name="title">
-            <string>انگلیسی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_14">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_6">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_7">
-           <attribute name="title">
-            <string>عربی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_15">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_7">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_11">
-           <attribute name="title">
-            <string>مطالعات</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_16">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_8">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_10">
-           <attribute name="title">
-            <string>جغرافیا</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_17">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_9">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_8">
-           <attribute name="title">
-            <string>دینی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_18">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_10">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_9">
-           <attribute name="title">
-            <string>دفاعی</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_19">
-            <item row="0" column="0">
-             <widget class="QListView" name="listView_11">
-              <property name="styleSheet">
-               <string notr="true">background-color:white;
-border:none;
-font-family:Aviny;
-font-size:22px;
-color:black;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
          </widget>
         </item>
-        <item row="1" column="0">
-         <widget class="QComboBox" name="comboBox">
-          <property name="layoutDirection">
-           <enum>Qt::LeftToRight</enum>
-          </property>
+        <item row="4" column="3">
+         <widget class="QLabel" name="label_27">
           <property name="styleSheet">
-           <string notr="true">QComboBox {
-background-color:rgb(0, 255, 76);
-border-radius:10px;
-font-family:Aviny;
-font-size:34px;
-color:white;
-}</string>
+           <string notr="true">padding-top:10px;
+padding-bottom:10px;
+background-color:transparent;</string>
           </property>
-          <item>
-           <property name="text">
-            <string>کلاس اول</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس دوم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس سوم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس چهارم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس پنجم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس ششم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس هفتم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس هشتم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس نهم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس دهم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس یازدهم</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>کلاس دوازدهم</string>
-           </property>
-          </item>
+          <property name="text">
+           <string/>
+          </property>
          </widget>
         </item>
-        <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton">
+        <item row="6" column="1" colspan="2">
+         <widget class="QLabel" name="label_25">
+          <property name="styleSheet">
+           <string notr="true">padding-bottom:20px;
+background-color:transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="question">
           <property name="styleSheet">
            <string notr="true">QPushButton {
 background-color:rgb(0, 255, 76);
 border-radius:10px;
 font-family:Aviny;
-font-size:34px;
+font-size:30px;
 color:white;
+padding-bottom:5px;
+padding-top:5px;
 }</string>
           </property>
           <property name="text">
            <string>افزدون سوال</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_40">
+          <property name="styleSheet">
+           <string notr="true">padding-top:10px;
+padding-bottom:10px;
+background-color:transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" rowspan="2">
+         <widget class="QLabel" name="label_36">
+          <property name="styleSheet">
+           <string notr="true">padding-left:220px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLabel" name="label_37">
+          <property name="styleSheet">
+           <string notr="true">padding-left:220px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="back2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-top:5px;
+padding-bottom:5px;
+}</string>
+          </property>
+          <property name="text">
+           <string>بازگشت</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QListWidget" name="q_list">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(0,255,76);
+font-family:Aviny;
+font-size:34px;
+border-radius:10px;
+color:white;
+text-align:center;</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustToContents</enum>
+          </property>
+          <property name="layoutMode">
+           <enum>QListView::Batched</enum>
+          </property>
+          <property name="viewMode">
+           <enum>QListView::ListMode</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2" rowspan="3">
+         <widget class="QLabel" name="label_35">
+          <property name="styleSheet">
+           <string notr="true">padding-bottom:10px;
+background-color:transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="label_34">
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_6">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="1" column="2" rowspan="6">
+         <widget class="QLabel" name="label_71">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;
+padding-right:200px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="q_grade">
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-bottom:5px;
+padding-top:5px;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>پایه تحصیلی</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="q_lesson">
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-bottom:5px;
+padding-top:5px;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>درس مورد نظر</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" rowspan="6">
+         <widget class="QLabel" name="label_44">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;
+padding-left:200px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_41">
+          <property name="styleSheet">
+           <string notr="true">font-family:Aviny;
+font-size:44px;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>سوال مورد نظر رو طرح کن</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="q_title">
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-bottom:5px;
+padding-top:5px;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>صورت سوال</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QPushButton" name="save_question">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-bottom:5px;
+padding-top:5px;
+}</string>
+          </property>
+          <property name="text">
+           <string>افزدون سوال</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLabel" name="label_42">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;
+padding-bottom:10px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_43">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;
+padding-top:10px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="q_answer">
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(0, 255, 76);
+border-radius:10px;
+font-family:Aviny;
+font-size:30px;
+color:white;
+padding-bottom:5px;
+padding-top:5px;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>پاسخ سوال</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLabel" name="fill_all">
+          <property name="styleSheet">
+           <string notr="true">font-family:Aviny;
+font-size:20px;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
